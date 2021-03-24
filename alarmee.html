@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="shortcut icon" href="relogio.png">
+
+    
+
+    <link rel="stylesheet" href="alarme-style.css">
+
+</head>
+<body>
+    <audio id="som" src="Som.mp3" style="display: none;"></audio>
+    
+    <div class="texto">
+        
+        <h1 class="texto">TIMER DO ESTILO</h1>
+    
+    </div>
+
+    <div class="inicio">
+        <h3 class="texto1">MINUTOS</h3>
+        <select id="minutos" name="minutos"></select>
+
+        <h3 class="texto1">SEGUNDOS</h3>
+        <select id="segundos" name="segundos"></select>
+    </br>
+        
+        <button id="botao" name="botao">COMEÇAR</button>
+          
+    </div> 
+    <div id="display">
+        <p class="text"></p>
+    </div>
+    <script src="alarme.js"></script>
+    
+</body>
+</html>

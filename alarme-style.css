@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    align-content: center;
+    background-color: mediumaquamarine;
+    color: gold;
+    font-family: verdana;
+    width:50%;
+    margin: auto;
+    justify-content: center;
+}
+
+.texto1{
+    color: black;
+    font-size: 20px;
+}
+
+#minutos, #segundos{
+    border-radius: 5px;
+    width: 50px;
+    padding: 5px;
+    font-family: verdana;
+    font-weight: bold;
+    background-color: gold;
+}
+
+#display{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+#botao{
+    color: white;
+    background-color: black;
+    font-family: verdana;
+    border-radius: 5px;
+    border: white;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
