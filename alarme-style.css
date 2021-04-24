@@ -1,11 +1,16 @@
+*{
+    width: 650PX;
+    height: auto;
+}
+
 body{
+    align-items: center;
     text-align: center;
-    align-content: center;
     background-color: mediumaquamarine;
     color: gold;
     font-family: verdana;
-    width:50%;
-    margin: auto;
+    
+    transform: translate(50%, 50%);
     justify-content: center;
 }
 
@@ -30,6 +35,7 @@ body{
 }
 
 #botao{
+    width: 20%;
     color: white;
     background-color: black;
     font-family: verdana;
